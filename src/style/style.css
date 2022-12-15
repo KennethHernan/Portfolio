@@ -1,0 +1,107 @@
+:root {
+	--color-black: #1C1C1C;
+	--color-write: #fff;
+    --color-rosa: #fa2257;
+    --color-plomo: #e4e4e4;
+	--color-seleccion: #77767670;
+    --color-trasparente: rgba(255, 255, 255, 0);
+    --letra-Monserrat:'Montserrat', sans-serif;
+}
+/* 
+box-shadow: 0px 170px 130px -45px rgba(0,0,0,0.89);
+-webkit-box-shadow: 0px 170px 130px -45px rgba(0,0,0,0.89);
+-moz-box-shadow: 0px 170px 130px -45px rgba(0,0,0,0.89);
+*/
+*{
+    margin: 0px;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    font-family: var(--letra-Monserrat);
+}
+.fondo {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    z-index: -1;
+}
+.fondo video{
+    width: 100%;
+}
+
+.content-logo {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+    font-size: 15px;
+    margin: 1%;
+}
+.content-logo div{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.body-content{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.39);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-bos {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+}
+.content-main {
+    width: 90vh;
+    height: 40vh;
+    background-color: rgba(1, 77, 26, 0.459);
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 98;
+    box-shadow: 0px 170px 130px -45px rgba(0,0,0,0.89);
+-webkit-box-shadow: 0px 170px 130px -45px rgba(0,0,0,0.89);
+-moz-box-shadow: 0px 170px 130px -45px rgba(0,0,0,0.89);
+}
+
+.button{
+    margin-top: 20px;
+    width: auto;
+    height: auto;
+    z-index: 99;
+}
+.button button{
+    width: auto;
+    height: 35px;
+    padding: 0px 60px;
+    border: 1px solid aqua;
+    background-color: #00000000;
+    color: #fff;
+}
+.button button:hover{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #ffffff9c;
+    color: rgb(0, 0, 0);
+}
+
+.content-main:hover{
+    box-shadow: 0px 170px 130px -45px rgba(255, 255, 255, 0.534);
+-webkit-box-shadow: 0px 170px 130px -45px rgba(255, 255, 255, 0.555);
+-moz-box-shadow: 0px 170px 130px -45px rgba(255, 255, 255, 0.521);
+}
